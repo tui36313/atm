@@ -7,7 +7,7 @@ public class CustomerMain {
        System.out.println(tui);
         System.out.println(tom);
         System.out.println(tui.checkPin("2345"));
-        Bank bank = new Bank("KTB");
+        Bank bank = new Bank("KTB",new WebServiceDataSource());
         bank.addCustomer(tui);
         bank.addCustomer(tom);
 //        bank.findCustomer(1);
