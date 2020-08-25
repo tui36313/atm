@@ -28,5 +28,9 @@ public class CustomerMain {
         System.out.println(tui);
         System.out.println(tom);
 
+        System.out.println(bank);
+
+
+
     }
 }
